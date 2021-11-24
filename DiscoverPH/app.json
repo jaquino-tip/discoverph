@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Discover PH",
+    "slug": "DiscoverPH",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-discoverph.png",
+    "splash": {
+      "image": "./assets/splash-discoverph-withbg.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.djs.discoverph"
+    }
+  },
+  "android": {
+    "package": "com.djs.discoverph",
+    "versionCode": 1,
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon-discoverph.png",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  }
+}
